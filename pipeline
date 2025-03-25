@@ -5,7 +5,7 @@ pipeline {
         IMAGE_NAME = "sample1"
        
         CLUSTER_NAME = "cluster-2"
-        GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-sa-key')
+        GOOGLE_APPLICATION_CREDENTIALS = credentials('sukanya-gcp')
         DEPLOY_YAML = "frontend.yaml"
     }
     stages {
